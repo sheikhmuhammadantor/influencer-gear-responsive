@@ -15,3 +15,68 @@ body {
     font-family: "Poppins", sans-serif;
     color: black;
 }
+
+/* Shears And Component Style */
+.purple-button {
+    background-color: #e02c6d;
+    color: white;
+    font-size: 1em;
+    font-weight: 400;
+    font-style: normal;
+    border: transparent;
+    border-radius: 1.5em;
+    padding: .7em 1.4em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5em;
+}
+
+.header-section {
+    /* background-color: lightblue; */
+    background-color: #c7ecee;
+    width: 100%;
+}
+
+
+/* Nav Section Start Hear */
+.nav-section {
+    height: 4rem;
+    width: calc(100% - 4em);
+    max-width: 90rem;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo-section {
+    font-size: 1.1rem;
+    word-spacing: -0.2rem;
+    cursor: pointer;
+}
+
+.orange-text {
+    color: orange;
+    font-weight: 700;
+}
+
+.menu-section-lg {
+    width: 55%;
+    max-width: 33.4rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+.menu-item {
+    font-size: 1.1rem;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.menu-section-md {
+    display: none;
+}
+
+/* Nav Section End Hear */
+
