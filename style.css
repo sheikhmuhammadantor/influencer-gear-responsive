@@ -80,3 +80,18 @@ body {
 
 /* Nav Section End Hear */
 
+
+
+/* Media Queries For Medium Device */
+@media screen and (max-width: 700px) {
+    .menu-section-lg {
+        display: none;
+    }
+
+    .menu-section-md {
+        width: 10%;
+        display: flex;
+        justify-content: center;
+        cursor: pointer;
+    }
+}
