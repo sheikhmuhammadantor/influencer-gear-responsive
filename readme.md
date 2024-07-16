@@ -1,4 +1,4 @@
-# For Live Preview : [Go Live](#)
+# For Live Preview : [Go Live](https://sheikhmuhammadantor.github.io/influencer-gear-responsive/)
 
 ## ICON : Font Awesome -
 
