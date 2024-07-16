@@ -33,7 +33,6 @@ body {
 }
 
 .header-section {
-    /* background-color: lightblue; */
     background-color: #c7ecee;
     width: 100%;
 }
@@ -50,6 +49,11 @@ body {
     align-items: center;
 }
 
+.nav-section a{
+    color: black;
+    text-decoration: none;
+}
+
 .logo-section {
     font-size: 1.1rem;
     word-spacing: -0.2rem;
@@ -62,16 +66,23 @@ body {
 }
 
 .menu-section-lg {
-    width: 55%;
+    width: 60%;
     max-width: 33.4rem;
     display: flex;
     justify-content: space-between;
 }
 
 .menu-item {
+    list-style: none;
     font-size: 1.1rem;
     font-weight: 500;
+    padding: 0.1rem 0.3rem;
+    border-radius: 0.3rem;
     cursor: pointer;
+}
+
+.menu-item:hover{
+    background-color: #93c6c9b9;
 }
 
 .menu-section-md {
