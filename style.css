@@ -230,4 +230,20 @@ body {
         cursor: pointer;
     }
 
+    .footer-section-content {
+        height: 55vh;
+    }
+}
+
+
+
+/* Not Supported Device */
+@media screen and (width < 375px) {
+    .header-section {
+        display: none;
+    }
+
+    .footer-section {
+        display: none;
+    }
 }
