@@ -2,7 +2,7 @@
 
 ## !! Device requirement : 
 - ### Width > 360px
-- ### Height > 660px
+- ### Height > 640px
 
 ## ICON : Font Awesome -
 
