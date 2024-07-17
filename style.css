@@ -81,6 +81,17 @@ body {
     cursor: pointer;
 }
 
+.fa-cart-shopping{
+    position: relative;
+}
+.dot{
+    color: red;
+    font-size: 2rem;
+    position: absolute;
+    top: -1.1rem;
+    right: -0.3rem;
+}
+
 .menu-item:hover{
     background-color: #93c6c9b9;
 }
