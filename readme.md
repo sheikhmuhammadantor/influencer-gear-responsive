@@ -1,5 +1,9 @@
 # For Live Preview : [Go Live](https://sheikhmuhammadantor.github.io/influencer-gear-responsive/)
 
+## !! Device requirement : 
+- ### Width > 360px
+- ### Height > 660px
+
 ## ICON : Font Awesome -
 
 ### 1. Solid :

@@ -17,6 +17,40 @@ body {
 }
 
 
+/* Only For Not Supported Device - */
+.not-supported-device {
+    width: 1000px;
+    height: 100vh;
+    color: lightseagreen;
+    margin: 0 auto;
+    display: none;
+    justify-content: center;
+    align-items: center;
+    overflow: scroll;
+}
+
+.not-supported-device h1 {
+    font-size: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+
+}
+
+.not-supported-device a {
+    text-decoration: none;
+    background-color: black;
+    color: white;
+    text-align: center;
+    font-size: 20px;
+    padding: 10px 20px;
+    border-radius: 70px;
+    word-spacing: 2px;
+}
+
+
 /* Shears And Component Style */
 .purple-button {
     background-color: #e02c6d;
@@ -123,7 +157,6 @@ body {
     flex-direction: column;
     justify-content: space-evenly;
     align-items: center;
-    /* row-gap: 3rem; */
 }
 
 .footer-content {
@@ -218,7 +251,7 @@ body {
 
 
 /* Media Queries For Medium Device */
-@media screen and (max-width: 700px) and (min-width: 375px) {
+@media screen and (max-width: 700px) and (min-width: 360px) {
     .menu-section-lg {
         display: none;
     }
@@ -238,7 +271,11 @@ body {
 
 
 /* Not Supported Device */
-@media screen and (width < 375px) {
+@media screen and (width < 360px) {
+    .not-supported-device {
+        display: flex;
+    }
+
     .header-section {
         display: none;
     }
