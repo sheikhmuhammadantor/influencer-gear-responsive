@@ -70,7 +70,8 @@ body {
 
 /* Header Section Start Hear */
 .header-section {
-    background-color: #c7ecee;
+    /* background-color: #c7ecee; */
+    background-color: white;
     width: 100%;
 }
 
