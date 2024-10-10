@@ -1,5 +1,7 @@
 # For Live Preview : [Go Live](https://sheikhmuhammadantor.github.io/influencer-gear-responsive/)
 
+## Design Main Repo : [Link](https://github.com/ProgrammingHero1/influencer-gear)
+
 ## !! Device requirement : 
 - ### Width > 360px
 - ### Height > 640px
